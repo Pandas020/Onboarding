@@ -484,7 +484,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "sensors"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
@@ -695,6 +697,30 @@
           "label": "KiLib_Generator",
           "name": "KiLib_Generator",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DigiKey_Part_Number",
+          "name": "DigiKey_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER_PART_NUMBER",
+          "name": "MANUFACTURER_PART_NUMBER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SNAPEDA_PN",
+          "name": "SNAPEDA_PN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFR_NAME",
+          "name": "MFR_NAME",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -745,7 +771,7 @@
         "uuid": "94aaf46e-9a32-4a78-b119-e2bc799fc1f2"
       }
     ],
-    "used_designators": "L1-2,R1-21,J1-4,BAT54W1,U1-12,F1,FB1,#PWR1-58,D1-6,C1-21,SW1-2,H1-4",
+    "used_designators": "L1-2,R1-21,J1-8,BAT54W1,U1-12,F1,FB1,#PWR1-61,D1-6,C1-21,SW1-2,H1-4",
     "variants": []
   },
   "sheets": [
